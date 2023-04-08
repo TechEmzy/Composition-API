@@ -2,11 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Reactive from '../views/Reactive.vue'
 import RefReactive from '../views/RefReactive.vue'
-<<<<<<< HEAD
 import ComputedValue from '../views/ComputedValue.vue'
-=======
-
->>>>>>> 10684a5499a47d9511c9e119e74adc7a5942d7e8
 
 const routes = [
   {
@@ -23,16 +19,12 @@ const routes = [
     path: '/ref&reactive',
     name: 'RefReactive',
     component: RefReactive
-<<<<<<< HEAD
   },
   {
     path: '/computed',
     name: 'ComputedValue',
     component: ComputedValue
   },
-=======
-  }
->>>>>>> 10684a5499a47d9511c9e119e74adc7a5942d7e8
 ]
 
 const router = createRouter({

@@ -1,6 +1,5 @@
 <template>
   <div class="reactive">
-<<<<<<< HEAD
     <h1>Using Ref here</h1>
   
     <!-- output the name and the age in the DOM -->
@@ -14,35 +13,19 @@
     <p>{{ dataTwo.name }} - {{ dataTwo.age }}</p>
     <!-- click button to update my name and my age -->
     <button @click="updateDataTwo">udate my data</button>
-=======
-    <h1>Ref vs Reactive</h1>
-    <h3>using REACTIVE by importing it from the library</h3>
-    <br>
-
-    <!-- output the name and the age in the DOM -->
-    <p>{{ data.name }} - {{ data.age }}</p>
-
-    <!-- click button to update my name and my age -->
-    <button @click="updateData">udate my data</button>
->>>>>>> 10684a5499a47d9511c9e119e74adc7a5942d7e8
   </div>
 
 </template>
 
 <script>
-<<<<<<< HEAD
 //using REACTIVE by importing it from the library
 import { ref, reactive } from 'vue';
-=======
-import {ref, reactive} from vue
->>>>>>> 10684a5499a47d9511c9e119e74adc7a5942d7e8
 
 export default {
     // my component name
     name: 'RefReactive',
     // setup function
     setup() {
-<<<<<<< HEAD
         //using ref here
         const dataOne = ref({ name: 'Emmy', age: 29 })
         //using reactive here
@@ -73,16 +56,3 @@ export default {
 }
 </script>
 
-=======
-        const data = ref({ name: "Emmy", age: "29"})
-
-        // creating an UPDATE FUNCTION to change the age and name
-        const updateData = () => {
-            data.value.age = 35
-        }
-
-        return { data, updateData}
-    }
-}
-</script>
->>>>>>> 10684a5499a47d9511c9e119e74adc7a5942d7e8
